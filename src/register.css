@@ -1,0 +1,18 @@
+.register-container {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 60vh;
+    font-size: smaller;
+}
+.reg-nav {
+    width: 100%;
+    border: 2px solid balck;
+    display: flex;
+    justify-content: space-between;
+}

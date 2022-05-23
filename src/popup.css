@@ -1,0 +1,89 @@
+.hide {
+    position: absolute;
+    top: 10%;
+    left: 649px;
+    background-color: white;
+    width: 580px;
+    height: 20vh;
+    border: 1px solid black;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    /* display: flex; */
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    z-index: 100;
+}
+.p-cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-button {
+    background-color: #2a6bba;
+    color: white;
+}
+.p-button:hover {
+    background-color: #0c478f;
+}
+.add-button img {
+    width: 600px;
+    height: 50vh;
+}
+.p-btn {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.pop-btn {
+    width: 80%;
+    height: 50px;
+    background-color: #2a6bba;
+    color: white;
+}
+.pop-btn:hover {
+    background-color: #0c478f;
+}
+/* top section */
+.p-top {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+    grid-template-columns: 2rem 1fr 4rem;
+}
+.p-top img {
+    width: 50px;
+    height: 50px;
+}
+.p-top input {
+    width: 100%;
+}
+.p-top button {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+}
+.p-btm {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 3fr 2rem 1fr;
+}
+.p-button-btm {
+    width: 100%;
+    height: 50px;
+    grid-column: 3/4;
+}
+
+.success {
+    width: 100%;
+    background-color: green;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
